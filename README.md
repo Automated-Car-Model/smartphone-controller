@@ -11,7 +11,7 @@ To get started, ensure you have the following:
 - *Flutter SDK* (to run the mobile application) [Flutter](https://docs.flutter.dev/get-started/install)
 - *Arduino IDE* (for programming the Arduino Nano) [Arduino IDE](https://www.arduino.cc/en/software)
 
-  ![RC car](images/figure1.png)
+  ![RC car](images/figure1.png?raw=true "RC car")
   
   ![Arduino Nano](images/figure_2.png?raw=true "Arduino Nano")
 ### Hardware Setup
@@ -21,9 +21,9 @@ To get started, ensure you have the following:
   - *Ground* (GND): Shared ground connection for all components.
 2) Powering the Arduino: You can either power the Arduino via its onboard battery or via USB when uploading the code.
 
-!(components)[images/figure_4.png?raw=true "Figure 3”]
+![Components](images/figure_4.png?raw=true "Components")
+![Connections](images/figure_5.png?raw=true "Connections")
 
-!(connections)[images/figure_5.png?raw=true "Figure 4”]
 ### Arduino Setup
 1) Download and install the Arduino IDE.
 2) Clone or download this repository.
@@ -46,5 +46,5 @@ flutter run
 1) Power on the Arduino Nano and open the Flutter app.
 2) Scan for nearby BLE devices and connect to the car's module (named Measurify-Car).
 3) Use the joystick in the app to control steering and throttle.
-   
-![smartphone app](images/figure_3.png?raw=true "Figure 5”)
+
+![Smartphone app](images/figure_3.png?raw=true "Smartphone app")
