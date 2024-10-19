@@ -3,17 +3,17 @@ This project involves the modernization of a traditional remote-controlled car b
 ## Quick Start
 ### Prerequisites
 To get started, ensure you have the following:
-- *Arduino Nano 33 BLE Sense* (Arduino)[https://docs.arduino.cc/hardware/nano-33-ble-sense/]
-- *RC car* (car)[https://traxxas.com/products/models/electric/58034-8-slash] with
+- *Arduino Nano 33 BLE Sense* [Arduino](https://docs.arduino.cc/hardware/nano-33-ble-sense/)
+- *RC car* [car](https://traxxas.com/products/models/electric/58034-8-slash) with
   - Servo Motor (for steering control)
   - Electronic Speed Controller (ESC) (for speed and direction control)
 - *Smartphone* (with Bluetooth capabilities)
-- *Flutter SDK* (to run the mobile application) (Flutter)[https://docs.flutter.dev/get-started/install]
-- *Arduino IDE* (for programming the Arduino Nano) (Arduino IDE)[https://www.arduino.cc/en/software]
+- *Flutter SDK* (to run the mobile application) [Flutter](https://docs.flutter.dev/get-started/install)
+- *Arduino IDE* (for programming the Arduino Nano) [Arduino IDE](https://www.arduino.cc/en/software)
   
-  ![RC car](images/figure_1.png?raw=true "Figure 1”)
+  !(RC car)[images/figure_1.png?raw=true "Figure 1”]
   
-  ![Arduino Nano 33 BLE Sense](images/figure_2.png?raw=true "Figure 2”)
+  !(Arduino Nano 33 BLE Sense)[images/figure_2.png?raw=true "Figure 2”]
 ### Hardware Setup
 1) Connect the Hardware: Ensure proper wiring between the Arduino Nano 33 BLE Sense, servo motor, and ESC.
   - *Pin 9*: Connected to the servo motor for steering.
@@ -21,9 +21,9 @@ To get started, ensure you have the following:
   - *Ground* (GND): Shared ground connection for all components.
 2) Powering the Arduino: You can either power the Arduino via its onboard battery or via USB when uploading the code.
 
-![components](images/figure_4.png?raw=true "Figure 3”)
+!(components)[images/figure_4.png?raw=true "Figure 3”]
 
-![connections](images/figure_5.png?raw=true "Figure 4”)
+!(connections)[images/figure_5.png?raw=true "Figure 4”]
 ### Arduino Setup
 1) Download and install the Arduino IDE.
 2) Clone or download this repository.
@@ -31,8 +31,8 @@ To get started, ensure you have the following:
 4) Connect your Arduino Nano 33 BLE Sense via USB to your computer.
 5) Select the correct Board and Port in the Arduino IDE (Arduino Nano 33 BLE).
 6) Install the necessary libraries for Arduino:
-	- Servo.h (download link)[https://docs.arduino.cc/libraries/servo/]
-	- ArduinoBLE.h (download link)[https://docs.arduino.cc/libraries/arduinoble/]
+	- Servo.h [download link](https://docs.arduino.cc/libraries/servo/)
+	- ArduinoBLE.h [download link](https://docs.arduino.cc/libraries/arduinoble/)
 7) Upload the code to the Arduino Nano.
 ### Flutter App Setup
 1) Install Flutter.
