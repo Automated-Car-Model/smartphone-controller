@@ -13,7 +13,7 @@ To get started, ensure you have the following:
 
   ![RC car](images/figure1.png)
   
-  !(Arduino Nano)[images/figure_2.png?raw=true "Arduino Nano”]
+  ![Arduino Nano](images/figure_2.png?raw=true "Arduino Nano")
 ### Hardware Setup
 1) Connect the Hardware: Ensure proper wiring between the Arduino Nano 33 BLE Sense, servo motor, and ESC.
   - *Pin 9*: Connected to the servo motor for steering.
