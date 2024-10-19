@@ -11,7 +11,7 @@ To get started, ensure you have the following:
 - *Flutter SDK* (to run the mobile application) [Flutter](https://docs.flutter.dev/get-started/install)
 - *Arduino IDE* (for programming the Arduino Nano) [Arduino IDE](https://www.arduino.cc/en/software)
   
-  ![RC car](images/figure_1.png?raw=true "RC car”)
+  ![RC car](images/figure_1.png "RC car”)
   
   !(Arduino Nano)[images/figure_2.png?raw=true "Arduino Nano”]
 ### Hardware Setup
